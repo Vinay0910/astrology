@@ -562,14 +562,8 @@ p {
 }
 /* for mobile */
 @media screen and (max-width: 767px){
-     .whatsapp-icon {
-	 margin-top:10px;
-     }
-    .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 85px;
-        right: 10px;
-        font-size: 22px;
+    body .owl-controls .owl-page{
+        display: none;
     }
+ 
 }

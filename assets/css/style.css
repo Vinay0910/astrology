@@ -106,7 +106,7 @@ Header Area CSS
     border-radius: 10px;
 }
 
-#overlay button {
+#overlay .btn-slider {
     background-color: transparent;
     border: 3px solid #afb1b4;
     border-radius: 6px;
@@ -116,7 +116,7 @@ Header Area CSS
     /* margin-top: 20px; */
     color: #e4e4e4;
   }
-  #overlay button:hover {
+  #overlay .btn-slider:hover {
     color: #fff;
     border: 3px solid #fff;
   }
@@ -145,17 +145,17 @@ Header Area CSS
         font-size: 14px;
     }
 
-    #overlay button {
+    #overlay .btn-slider {
         background-color: transparent;
         border: 3px solid #afb1b4;
         border-radius: 6px;
         font-size: 20px;
         padding: 6px 28px;
         cursor: pointer;
-        /* margin-top: 20px; */
+        margin-top: 20px;
         color: #e4e4e4;
       }
-      #overlay button:hover {
+      #overlay .btn-slider:hover {
         color: #fff;
         border: 3px solid #fff;
       }
@@ -163,6 +163,20 @@ Header Area CSS
 }
 
 @media (min-width:300px) and (max-width:600px) {
+    #overlay{
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-50%,-50%);
+        background-color: rgba(255, 0, 0, 0.6);
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 6px;
+    }
    #overlay #title{
         font-size: 10px;
         margin: 0;
@@ -171,17 +185,21 @@ Header Area CSS
 
     #info{
         font-size: 6px;
-        margin: 0;
+        margin: 8px 0 0;
+        line-height: 12px;
     }
 
-    #overlay button {
+    #overlay .btn-slider {
         background-color: transparent;
         border: 1px solid #afb1b4;
+        width: 40px;
         border-radius: 1px;
-        font-size: 6px;
-        padding: 0 2px;
+        font-size: 5px;
         cursor: pointer;
+        margin-bottom: ;
         /* margin-top: 20px; */
+        padding: 0;
+        line-height: 12px;
         color: #e4e4e4;
       }
      

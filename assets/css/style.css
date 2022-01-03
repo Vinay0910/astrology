@@ -164,12 +164,12 @@ Header Area CSS
 
 @media (min-width:300px) and (max-width:600px) {
     #overlay{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         position: absolute;
         bottom: 0;
         right: 0;
-        transform: translate(-50%,-50%);
+        transform: translate(-40%,-40%);
         background-color: rgba(255, 0, 0, 0.6);
         display: block;
         justify-content: center;
@@ -179,14 +179,14 @@ Header Area CSS
     }
    #overlay #title{
         font-size: 10px;
-        margin: 0;
+        margin-top: 5px;
     
     }
 
     #info{
         font-size: 6px;
-        margin: 8px 0 0;
-        line-height: 12px;
+        margin: 5px 0 0;
+        line-height: 10px;
     }
 
     #overlay .btn-slider {
@@ -196,7 +196,6 @@ Header Area CSS
         border-radius: 1px;
         font-size: 5px;
         cursor: pointer;
-        margin-bottom: ;
         /* margin-top: 20px; */
         padding: 0;
         line-height: 12px;

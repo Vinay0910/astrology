@@ -207,7 +207,7 @@ Header Area CSS
         left: 50%;
         transform: translate(-50%,-50%);
         background-color: rgba(255, 0, 0, 0.6);
-        display: block;
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;

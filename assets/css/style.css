@@ -94,8 +94,8 @@ Header Area CSS
     width: 50%;
     height: 40%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgba(255, 0, 0, 0.6);
     display: flex;
@@ -124,7 +124,8 @@ Header Area CSS
     color: #fff;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
+    margin-top: 10px ;
+
 
 }
 
@@ -161,15 +162,50 @@ Header Area CSS
       }
 
 }
+@media (min-width:600px) and (max-width:1000px) {
+    #overlay{
+        line-height: 18px;
+    }
+
+    #overlay .btn-slider {
+        background-color: transparent;
+        border: 3px solid #afb1b4;
+        border-radius: 6px;
+        font-size: 15px;
+        padding: 2px 14px;
+        cursor: pointer;
+        /* margin-top: 20px; */
+        color: #e4e4e4;
+      }
+      #overlay .btn-slider:hover {
+        color: #fff;
+        border: 3px solid #fff;
+      }
+    #overlay #title{
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 10px 0 6px;
+    
+    
+    }
+    
+    #info{
+        color: #ccc;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+}
 
 @media (min-width:300px) and (max-width:600px) {
     #overlay{
         width: 60%;
         height: 60%;
         position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(-40%,-40%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         background-color: rgba(255, 0, 0, 0.6);
         display: block;
         justify-content: center;
@@ -179,7 +215,7 @@ Header Area CSS
     }
    #overlay #title{
         font-size: 10px;
-        margin-top: 5px;
+        margin: 10px 0 8px;
     
     }
 

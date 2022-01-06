@@ -214,13 +214,13 @@ Header Area CSS
         border-radius: 6px;
     }
    #overlay #title{
-        font-size: 10px;
+        font-size: 14px;
         margin: 17px 0 8px;
     
     }
 
     #info{
-        font-size: 6px;
+        font-size: 9px;
         margin: 5px 0 0;
         line-height: 10px;
     }
@@ -228,9 +228,9 @@ Header Area CSS
     #overlay .btn-slider {
         background-color: transparent;
         border: 1px solid #afb1b4;
-        width: 40px;
-        border-radius: 1px;
-        font-size: 5px;
+        width: 60px;
+        border-radius: 2px;
+        font-size: 8px;
         cursor: pointer;
         /* margin-top: 20px; */
         padding: 0;
